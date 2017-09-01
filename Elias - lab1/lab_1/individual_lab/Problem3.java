@@ -12,36 +12,12 @@ public class Problem3 extends Robot
     }
     
     public void giveCarlBeeper() {
-        turnRight();
-        move();
-        move();
-        move();
-        putBeeper();
-        turnLeft();
-        turnLeft();
-        move();
-        move();
-        move();
-        turnRight();
+        //This method should allow karel, who is at (1, 1) to give a beeper to carl (at 1, 4)
         
     }
     
     public void pickAndMoveBeeper() {
-        pickBeeper();
-        turnLeft();
-        move();
-        move();
-        putBeeper();
-        turnLeft();
-        turnLeft();
-        move();
-        move();
-        turnLeft();
-    }
-    public void turnRight() {
-       turnLeft();
-       turnLeft();
-       turnLeft();
+        //This method is for carl to pick up the beeper from karel and move it two blocks north
     }
    
 }

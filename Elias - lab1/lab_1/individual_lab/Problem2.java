@@ -18,26 +18,6 @@ public class Problem2 extends Robot
         move();
         move();
         turnLeft();
-        move();
-        move();
-        turnRight();
-        move();
-        move();
-        turnRight();
-        move();
-        move();
-        turnRight();
-        move();
-        move();
-        turnRight();
-        move();
-        move();
-        turnLeft();
-        move();
-        move();
-        turnLeft();
-        move();
-        turnLeft();
     }
    
     public void turnRight() {

@@ -7,7 +7,7 @@ public class Problem2Driver implements Directions
 {
     public static void main(String args[])  {
         Problem2 billy = new Problem2(3,5,North,0);
-        billy.shuttleRace();
+        
         billy.turnOff();
     } 
 
@@ -17,7 +17,7 @@ public class Problem2Driver implements Directions
         World.setBeeperColor(Color.magenta);
         World.setStreetColor(Color.blue);
         World.setNeutroniumColor(Color.green.darker());
-        World.setDelay(30);  
+        World.setDelay(3);  
         World.setVisible(true);
     }
 }
